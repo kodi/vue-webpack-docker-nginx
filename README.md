@@ -48,7 +48,7 @@ You should have following sowftare installed on your machine:
 
 
 
-## Build for production and package to Docker
+## Docker build for production
 
 Go to the project root and run this command
 
