@@ -1,4 +1,5 @@
 # Vue.js / Webpack / Docker / NginX 
+## Overview
 
 This is slightly modified vue-cli bootstrap project with addition of possibility to create Docker image with nginx that will serve static site.
 
