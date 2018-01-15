@@ -15,6 +15,8 @@ This is slightly modified vue-cli bootstrap project with addition of possibility
 
 <div>
     <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png" height="54px"/>
+    <br/>
+    We use docker to package static html, js and css files and serve them via Nginx inside of docker.
 </div>
 
 <div>
