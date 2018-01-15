@@ -1,13 +1,25 @@
-# vue-webpack-docker-alpine-nginx
-### Vue.js / Webpack / Docker / NginX 
+# Vue.js / Webpack / Docker / NginX 
 
+This is slightly modified vue-cli bootstrap project with addition of possibility to create Docker image with nginx that will serve static site.
 
-:wrench: Clone And Ready-to-use repo for development using
-- Vue.js (2.5.2)
-- Webpack
-- Docker with Alpine Linux (3.7)
-- NginX inside of Docker
+<div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png" width="64px"/>
+    <br>
+    Vue.js is used as main Frontend framework, project was bootstraped using `vue-cli` and using Vue.js version `2.5.2`
+</div>
+<div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Webpack.png" width="64px"/>
+    <br/>
+    We use Webpack to bundle and build everything into static html file that is ready to be served via Docker
+</div>
 
+<div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png" height="54px"/>
+</div>
+
+<div>
+    <img src="https://quiksite.com/wp-content/uploads/2016/09/NGINX-Logo.png" height="54px"/>
+</div>
 
 
 ## Build for production and package to Docker
@@ -19,7 +31,7 @@ Go to the project root and run this command
 
 ```
 
-It will do a cleanup, run npm install & build, and finally start nginx server on port 8080.
+It will do a cleanup, run npm install & build, and finally start nginx server inside Docker on port 8080.
 
 
 
