@@ -1,4 +1,9 @@
 # Vue.js / Webpack / Docker / NginX 
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/kodi/esta/vue-webpack-docker-nginx)
+[![HitCount](http://hits.dwyl.com/kodi/vue-webpack-docker-nginx.svg)](http://hits.dwyl.com/kodi/vue-webpack-docker-nginx)
+
+
+
 ## Overview
 
 This is slightly modified vue-cli bootstrap project with addition of possibility to create Docker image with nginx that will serve static site.
@@ -6,6 +11,7 @@ This is slightly modified vue-cli bootstrap project with addition of possibility
 
 <div>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png" width="64px"/>
+    2.5.2
     <br>
     Vue.js is used as main Frontend framework, project was bootstraped using `vue-cli` and using Vue.js version `2.5.2`
 </div>
