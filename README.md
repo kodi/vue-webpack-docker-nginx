@@ -3,6 +3,7 @@
 
 This is slightly modified vue-cli bootstrap project with addition of possibility to create Docker image with nginx that will serve static site.
 
+
 <div>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png" width="64px"/>
     <br>
@@ -25,6 +26,15 @@ This is slightly modified vue-cli bootstrap project with addition of possibility
     <br/>
     Nginx will serve static content from within a docker
 </div>
+
+### Requirements
+
+You should have following sowftare installed on your machine:
+
+- Node
+- Npm
+- Docker
+
 
 
 ## Build for production and package to Docker
