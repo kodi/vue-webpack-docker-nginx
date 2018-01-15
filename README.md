@@ -15,23 +15,28 @@ This is slightly modified vue-cli bootstrap project with addition of possibility
     <br>
     Vue.js is used as main Frontend framework, project was bootstraped using `vue-cli` and using Vue.js version `2.5.2`
 </div>
+<hr/>
 <div>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Webpack.png" width="64px"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Webpack.png" width="64px"/> 3.6.0
     <br/>
     We use Webpack to bundle and build everything into static html file that is ready to be served via Docker
 </div>
-
+<hr/>
 <div>
     <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png" height="54px"/>
     <br/>
-    We use docker to package static html, js and css files and serve them via Nginx inside of docker.
+    We use docker to package static html, js and css files and serve them via Nginx inside of docker. For best performance we use lightweight <a href="https://alpinelinux.org/">Alpine</a> linux
 </div>
+<hr/>
 
 <div>
     <img src="https://quiksite.com/wp-content/uploads/2016/09/NGINX-Logo.png" height="54px"/>
     <br/>
     Nginx will serve static content from within a docker
 </div>
+
+<hr/>
+
 
 ### Requirements
 
