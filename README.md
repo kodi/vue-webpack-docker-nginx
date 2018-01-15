@@ -49,7 +49,7 @@ It will do a cleanup, run npm install & build, and finally start nginx server in
 
 
 
-## Local, non-docker builds
+## Local, non-docker watcher and builds
 
 ``` bash
 # install dependencies
@@ -73,5 +73,11 @@ npm run e2e
 # run all tests
 npm test
 ```
+
+## Backend / API?
+This is intended for maximum pefromances, this is why we use Nginx for serving.
+If you have node.js/PHP/Java backend, do **not** run it inside this docker container.
+
+Instead, you should follow best practices and create separate Docker with your backend service, and point this frontend code to it.
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
