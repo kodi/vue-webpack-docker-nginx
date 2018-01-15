@@ -104,3 +104,6 @@ If you have node.js/PHP/Java backend, do **not** run it inside this docker conta
 Instead, you should follow best practices and create separate Docker with your backend service, and point this frontend code to it.
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-112499985-1/welcome-page)](https://github.com/kodi/vue-webpack-docker-nginx)
