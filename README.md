@@ -8,6 +8,8 @@
 
 This is slightly modified vue-cli bootstrap project with addition of possibility to create Docker image with nginx that will serve static site.
 
+Such image can then be easily deployed with Dokku, pushed to Heroku  etc.
+
 
 <div>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png" width="64px"/>
