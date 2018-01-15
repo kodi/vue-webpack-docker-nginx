@@ -19,6 +19,8 @@ This is slightly modified vue-cli bootstrap project with addition of possibility
 
 <div>
     <img src="https://quiksite.com/wp-content/uploads/2016/09/NGINX-Logo.png" height="54px"/>
+    <br/>
+    Nginx will serve static content from within a docker
 </div>
 
 
