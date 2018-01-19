@@ -98,7 +98,7 @@ npm test
 ```
 
 ## Backend / API?
-This is intended for maximum pefromances, this is why we use Nginx for serving.
+This is intended for maximum performance, this is why we use Nginx for serving.
 If you have node.js/PHP/Java backend, do **not** run it inside this docker container.
 
 Instead, you should follow best practices and create separate Docker with your backend service, and point this frontend code to it.
