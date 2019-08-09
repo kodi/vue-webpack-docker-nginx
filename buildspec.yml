@@ -14,7 +14,6 @@ phases:
       - DOCKER_TAG=local_dev/app_name
       - DOCKER_DEBUG=''
       - npm run build --silent
-      - docker build ${DOCKER_DEBUG} -t  ${DOCKER_TAG} .
 artifacts:
   files:
     - '**/*'
