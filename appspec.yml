@@ -1,6 +1,9 @@
 version: 0.0
 os: linux
 hooks:
+  AfterInstall:
+    - location: docker_build_container.sh
+      timeout: 180
   ApplicationStart:
     - location: docker_start_container.sh
       timeout: 180
