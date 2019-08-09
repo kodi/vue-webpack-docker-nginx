@@ -1,0 +1,6 @@
+version: 0.0
+os: linux
+hooks:
+  ApplicationStart:
+    - location: docker_start_container.sh
+      timeout: 180
