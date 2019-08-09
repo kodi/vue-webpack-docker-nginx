@@ -5,6 +5,13 @@ phases:
     runtime-versions:
       nodejs: 10
       docker: 18
+    commands:
+      - npm i
   build:
     commands:
-      - ./docker_build/build.sh
+      - LOCAL_PORT=8080
+      - DOCKER_PORT=80
+      - DOCKER_TAG=local_dev/app_name
+      - DOCKER_DEBUG=''
+      - npm run build --silent
+      - docker build ${DOCKER_DEBUG} -t  ${DOCKER_TAG} .
